@@ -40,9 +40,9 @@ export default function HeroLeadStory() {
               Haitam El Atifi
             </strong>{" "}
             - is a software development student in Casablanca, building modern
-            web applications with React, Laravel, and Django. Focused on
-            practical projects and continuous learning, he is currently seeking
-            a 4-month internship to grow into a full-stack developer.
+            web applications with React, Laravel. Focused on practical projects
+            and continuous learning, he is currently seeking a 4-month
+            internship to grow into a full-stack developer.
           </p>
 
           <div className="pull-quote">

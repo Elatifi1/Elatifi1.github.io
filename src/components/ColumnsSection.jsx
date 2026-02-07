@@ -18,14 +18,27 @@ const SKILLS = [
   },
   {
     category: "Backend",
-    items: ["PHP", "Laravel", "MySQL", "Java"],
+    items: ["PHP", "Laravel", , "Java", "MySQL", "Oracle SQL"],
   },
-  { category: "Tools", items: ["Git", "GitHub", "Vite"] },
+  {
+    category: "Tools",
+    items: [
+      "Git",
+      "GitHub",
+      "UML",
+      "Merise",
+      "Gantt",
+      "REST API",
+      "SEO",
+      "Ai integrating",
+    ],
+  },
 ];
 
 const TIMELINE = [
   { year: "2025–Present", text: "Bachelor’s in Software Development — IFIAG" },
   { year: "2025", text: "Backend Program — ALX" },
+  { year: "2023–2025", text: "Economics Studies — Hassan II University, FDC" },
   { year: "2022", text: "Technician Diploma — EURELEC" },
   { year: "2022", text: "Web Developer Intern — XYLOG" },
   { year: "2021", text: "Web Developer Intern — Leopard" },

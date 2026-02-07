@@ -1,3 +1,6 @@
+import { useState, useEffect } from "react";
+import { AnimatePresence } from "framer-motion";
+import Loader from "./components/Loader";
 import PaperOverlay from "./components/PaperOverlay";
 import ReadingProgress from "./components/ReadingProgress";
 import Masthead from "./components/Masthead";
@@ -8,8 +11,24 @@ import Classifieds from "./components/Classifieds";
 import Footer from "./components/Footer";
 
 export default function App() {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 1500);
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <>
+      <AnimatePresence mode="wait">
+        {isLoading && (
+          <Loader key="loader" onComplete={() => setIsLoading(false)} />
+        )}
+      </AnimatePresence>
+
       <PaperOverlay />
       <ReadingProgress />
 
