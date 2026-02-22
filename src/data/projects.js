@@ -13,7 +13,11 @@ const projects = [
       live: "",
       github: "https://github.com/Elatifi01/gestion-hopitalier",
     },
-    images: ["/images/managementSystem.webp"],
+    images: [
+      "/images/managementSystem.webp",
+      "/images/loginGesHospital.jpeg",
+      "/images/GesRdv.jpeg",
+    ],
     featured: true,
     date: "2022",
     category: "Desktop Application",
@@ -32,9 +36,9 @@ const projects = [
       github: "YOUR_GITHUB_LINK_HERE",
     },
     images: [
-      "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&q=80",
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
-      "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80",
+      "/images/dashboardSkillTracker.png",
+      "/images/LoginSkillTracker.png",
+      "/images/addSkill.png",
     ],
     featured: true,
     date: "2025",
@@ -56,8 +60,6 @@ const projects = [
     },
     images: [
       "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&q=80",
-      "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&q=80",
-      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?w=800&q=80",
     ],
     featured: true,
     date: "2026",
@@ -78,8 +80,6 @@ const projects = [
     },
     images: [
       "https://images.unsplash.com/photo-1557825835-70d97c4aa567?w=800&q=80",
-      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&q=80",
-      "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80",
     ],
     featured: false,
     date: "2023",
